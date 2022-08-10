@@ -21,7 +21,6 @@ body {
 }
 
 h1 {
-    padding: 90px;
     font-size: 60px;
     font-weight: 700;
     font-family: var(--heading-font-family);
@@ -30,6 +29,7 @@ h1 {
 h2 {
     padding: 10px;
     font-size: 30px;
+    font-weight: 550;
 }
 
 h3 {
@@ -46,4 +46,33 @@ h3 {
 
 .footer {
     text-align: center;
+}
+
+.btn:hover {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+    color: white;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 50px;
+        padding: 40px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+
+    .project-description {
+        padding: 0;
+        text-align: center;
+    }
+}
+
+.btn-primary {
+    border-color: var(--secondary-color);
+    background-color: white;
+    color: var(--secondary-color);
 }
