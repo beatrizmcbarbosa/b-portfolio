@@ -1,18 +1,30 @@
-body {
-    background-color: #2C3639;
-    color: #DCD7C9;
-    text-align: center;
-    font-family: 'Courier New',
+:root {
+    --branding-color: #2C3639;
+    --default-color: #DCD7C9;
+    --secondary-color: #7fa99b;
+    --heading-font-family: 'Shadows Into Light',
+        cursive;
+    --default-font-family: 'Courier New',
         Courier,
         monospace;
 }
 
+body {
+    font-family: var(--default-font-family);
+}
+
+.hero {
+    background-color: var(--branding-color);
+    color: var(--default-color);
+    text-align: center;
+    padding: 160px 20px;
+}
+
 h1 {
-    margin-top: 5cm;
     padding: 90px;
     font-size: 60px;
     font-weight: 700;
-    font-family: 'Shadows Into Light', cursive;
+    font-family: var(--heading-font-family);
 }
 
 h2 {
@@ -24,7 +36,14 @@ h3 {
     font-size: 15px;
 }
 
-.social-media {
-    margin-left: 50px;
-    margin-right: 200px;
+.btn-branding {
+    background: var(--secondary-color);
+    border-radius: 6px;
+    color: var(--branding-color);
+    font-size: 18px;
+    padding: 12px 20px;
+}
+
+.footer {
+    text-align: center;
 }
