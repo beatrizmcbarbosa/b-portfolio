@@ -1,0 +1,25 @@
+body {
+    background-color: #2C3639;
+    color: #DCD7C9;
+    text-align: center;
+    font-family: 'Courier New',
+        Courier,
+        monospace;
+}
+
+h1 {
+    margin-top: 5cm;
+    padding: 90px;
+    font-size: 60px;
+    font-weight: 700;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+h2 {
+    padding: 10px;
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 15px;
+}
