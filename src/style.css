@@ -44,6 +44,7 @@ p {
     background: var(--secondary-color);
     border-radius: 6px;
     color: var(--branding-color);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     font-size: 18px;
     padding: 12px 20px;
 }
@@ -83,6 +84,11 @@ p {
 }
 
 .contact-section {
+    text-align: center;
+}
+
+.project-section h1 {
+    padding: 140px 20px;
     text-align: center;
 }
 
