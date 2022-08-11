@@ -116,9 +116,12 @@ p {
     padding: 0;
 }
 
+.project-section {
+    text-align: center;
+}
+
 .project-section h1 {
     padding: 140px 20px;
-    text-align: center;
 }
 
 footer {
