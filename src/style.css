@@ -10,6 +10,29 @@
     --default-border-radius: 25px;
 }
 
+nav {
+    padding: 20px 0;
+}
+
+.navbar-nav {
+    padding: 0;
+    margin: 0px;
+}
+
+.nav-item {
+    margin-left: 15px;
+    line-height: 30px;
+}
+
+.nav-link {
+    transition: all 100ms ease-in-out;
+    font-weight: 100;
+}
+
+.nav-link:hover {
+    color: var(--secondary-color);
+}
+
 body {
     font-family: var(--default-font-family);
 }
@@ -126,5 +149,14 @@ p {
 
     .about-section p {
         font-size: 15px;
+    }
+
+    .project-section {
+        padding: 0px 15px;
+    }
+
+    .project-section h1 {
+        padding: 60px 15px;
+        font-size: 40px;
     }
 }
