@@ -60,6 +60,10 @@ h3 {
     font-size: 15px;
 }
 
+h4 {
+    font-size: 35px;
+}
+
 p {
     font-family: var(--default-font-family);
 }
@@ -77,6 +81,7 @@ p {
     background-color: var(--default-color);
     border-color: var(--secondary-color);
     color: var(--secondary-color);
+    font-size: 17px;
 }
 
 .btn-primary {
@@ -90,6 +95,7 @@ p {
     background-color: var(--secondary-color);
     border-color: var(--secondary-color);
     color: white;
+    font-size: 15px;
 }
 
 .about-section {
@@ -110,21 +116,41 @@ p {
     padding: 0;
 }
 
-.footer {
-    text-align: center;
-}
-
-.contact-section {
-    text-align: center;
-}
-
 .project-section h1 {
     padding: 140px 20px;
     text-align: center;
 }
 
-.contact-section {
-    padding: 140px 20px;
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+footer .contact-box {
+    background-color: var(--default-color);
+    padding: 50px 160px;
+    border-radius: 10px;
+}
+
+footer .email-link {
+    text-decoration: none;
+    color: var(--branding-color);
+    font-size: 25px;
+    padding: 40px 0;
+}
+
+footer .github,
+.linkedin {
+    color: var(--secondary-color);
+    transition: color 0.2s;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+footer .github:hover,
+.linkedin:hover {
+    color: var(--branding-color);
+    font-size: 25px;
 }
 
 @media (max-width: 768px) {
@@ -158,5 +184,26 @@ p {
     .project-section h1 {
         padding: 60px 15px;
         font-size: 40px;
+    }
+
+    footer .contact-box {
+        padding: 40px 20px;
+    }
+
+    footer .contact-box h4 {
+        font-size: 20px;
+    }
+
+    footer .contact-box p {
+        font-size: 15px;
+    }
+
+    footer .btn-branding {
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    footer .email-link {
+        font-size: 20px;
     }
 }
