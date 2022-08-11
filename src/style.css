@@ -36,12 +36,40 @@ h3 {
     font-size: 15px;
 }
 
+p {
+    font-family: var(--default-font-family);
+}
+
 .btn-branding {
     background: var(--secondary-color);
     border-radius: 6px;
     color: var(--branding-color);
     font-size: 18px;
     padding: 12px 20px;
+}
+
+.btn-primary {
+    border-color: var(--secondary-color);
+    background-color: white;
+    color: var(--secondary-color);
+}
+
+.about-section {
+    padding: 160px 50px;
+}
+
+.about-section h1 {
+    font-size: 40px;
+    padding: 0;
+}
+
+.about-section h2 {
+    font-size: 20px;
+    padding: 0;
+}
+
+.about-section p {
+    padding: 0;
 }
 
 .footer {
@@ -54,6 +82,10 @@ h3 {
     color: white;
 }
 
+.contact-section {
+    text-align: center;
+}
+
 @media (max-width: 768px) {
     h1 {
         font-size: 50px;
@@ -64,15 +96,17 @@ h3 {
         font-size: 20px;
     }
 
-
     .project-description {
         padding: 0;
         text-align: center;
     }
-}
 
-.btn-primary {
-    border-color: var(--secondary-color);
-    background-color: white;
-    color: var(--secondary-color);
+    .about-section {
+        text-align: center;
+        padding: 70px 20px;
+    }
+
+    .about-section p {
+        font-size: 15px;
+    }
 }
