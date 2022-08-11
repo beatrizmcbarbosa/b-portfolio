@@ -7,6 +7,7 @@
     --default-font-family: 'Courier New',
         Courier,
         monospace;
+    --default-border-radius: 25px;
 }
 
 body {
@@ -42,17 +43,30 @@ p {
 
 .btn-branding {
     background: var(--secondary-color);
-    border-radius: 6px;
+    border-radius: var(--default-border-radius);
     color: var(--branding-color);
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     font-size: 18px;
     padding: 12px 20px;
 }
 
+.btn-branding:hover {
+    background-color: var(--default-color);
+    border-color: var(--secondary-color);
+    color: var(--secondary-color);
+}
+
 .btn-primary {
     border-color: var(--secondary-color);
     background-color: white;
     color: var(--secondary-color);
+    border-radius: var(--default-border-radius);
+}
+
+.btn-primary:hover {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+    color: white;
 }
 
 .about-section {
@@ -75,12 +89,6 @@ p {
 
 .footer {
     text-align: center;
-}
-
-.btn:hover {
-    background-color: var(--secondary-color);
-    border-color: var(--secondary-color);
-    color: white;
 }
 
 .contact-section {
