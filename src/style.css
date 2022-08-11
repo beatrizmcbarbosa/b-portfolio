@@ -100,6 +100,10 @@ p {
     text-align: center;
 }
 
+.contact-section {
+    padding: 140px 20px;
+}
+
 @media (max-width: 768px) {
     h1 {
         font-size: 50px;
