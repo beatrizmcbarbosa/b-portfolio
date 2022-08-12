@@ -99,7 +99,7 @@ p {
 }
 
 .about-section {
-    padding: 160px 50px;
+    padding: 160px 20px;
 }
 
 .about-section h1 {
@@ -116,12 +116,22 @@ p {
     padding: 0;
 }
 
-.project-section {
+.project-section h1 {
     text-align: center;
+    padding: 160px 20px;
 }
 
-.project-section h1 {
-    padding: 140px 20px;
+.contact-section h1 {
+    text-align: center;
+    padding: 160px 20px 80px;
+}
+
+.contact-section .github,
+.linkedin {
+    color: var(--secondary-color);
+    transition: color 0.2s;
+    font-size: 30px;
+    text-decoration: none;
 }
 
 footer {
@@ -140,6 +150,11 @@ footer .email-link {
     color: var(--branding-color);
     font-size: 25px;
     padding: 40px 0;
+}
+
+footer .email-link:hover {
+    text-decoration: none;
+    color: var(--secondary-color);
 }
 
 footer .github,
